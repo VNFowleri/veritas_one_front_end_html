@@ -4,8 +4,33 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="90f4068f-b5a8-48dc-9702-9f9d5da0e680" name="Changes" comment="html front end">
+    <list default="true" id="90f4068f-b5a8-48dc-9702-9f9d5da0e680" name="Changes" comment="try 2">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/veritas-one/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/react_front_end_app/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/veritas-one/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/react_front_end_app/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/veritas-one/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/react_front_end_app/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/veritas-one/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/react_front_end_app/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/veritas-one/public/favicon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/react_front_end_app/public/favicon.ico" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/veritas-one/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/react_front_end_app/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/veritas-one/public/logo192.png" beforeDir="false" afterPath="$PROJECT_DIR$/react_front_end_app/public/logo192.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/veritas-one/public/logo512.png" beforeDir="false" afterPath="$PROJECT_DIR$/react_front_end_app/public/logo512.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/veritas-one/public/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/react_front_end_app/public/manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/veritas-one/public/robots.txt" beforeDir="false" afterPath="$PROJECT_DIR$/react_front_end_app/public/robots.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/veritas-one/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/react_front_end_app/src/App.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/veritas-one/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/react_front_end_app/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/veritas-one/src/App.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/react_front_end_app/src/App.test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/veritas-one/src/components/Footer.js" beforeDir="false" afterPath="$PROJECT_DIR$/react_front_end_app/src/components/Footer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/veritas-one/src/components/Navbar.js" beforeDir="false" afterPath="$PROJECT_DIR$/react_front_end_app/src/components/Navbar.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/veritas-one/src/components/SharedLayout.js" beforeDir="false" afterPath="$PROJECT_DIR$/react_front_end_app/src/components/SharedLayout.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/veritas-one/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/react_front_end_app/src/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/veritas-one/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/react_front_end_app/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/veritas-one/src/logo.svg" beforeDir="false" afterPath="$PROJECT_DIR$/react_front_end_app/src/logo.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/veritas-one/src/pages/About.js" beforeDir="false" afterPath="$PROJECT_DIR$/react_front_end_app/src/pages/About.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/veritas-one/src/pages/Home.js" beforeDir="false" afterPath="$PROJECT_DIR$/react_front_end_app/src/pages/Home.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/veritas-one/src/pages/Login.js" beforeDir="false" afterPath="$PROJECT_DIR$/react_front_end_app/src/pages/Login.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/veritas-one/src/pages/SignUp.js" beforeDir="false" afterPath="$PROJECT_DIR$/react_front_end_app/src/pages/SignUp.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/veritas-one/src/reportWebVitals.js" beforeDir="false" afterPath="$PROJECT_DIR$/react_front_end_app/src/reportWebVitals.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/veritas-one/src/setupTests.js" beforeDir="false" afterPath="$PROJECT_DIR$/react_front_end_app/src/setupTests.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,6 +47,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "VNFowleri"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/VNFowleri/veritas_one_front_end_html.git",
+    "accountId": "754059b8-b741-4f9f-927d-3b96213c60ef"
+  }
+}]]></component>
   <component name="ProjectColorInfo"><![CDATA[{
   "associatedIndex": 0
 }]]></component>
@@ -74,7 +111,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1743102948263</updated>
-      <workItem from="1743102949329" duration="2941000" />
+      <workItem from="1743102949329" duration="3785000" />
     </task>
     <task id="LOCAL-00001" summary="html front end">
       <option name="closed" value="true" />
@@ -92,7 +129,15 @@
       <option name="project" value="LOCAL" />
       <updated>1743105381195</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="try 2">
+      <option name="closed" value="true" />
+      <created>1743105908286</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1743105908286</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -121,6 +166,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="html front end" />
-    <option name="LAST_COMMIT_MESSAGE" value="html front end" />
+    <MESSAGE value="try 2" />
+    <option name="LAST_COMMIT_MESSAGE" value="try 2" />
   </component>
 </project>
