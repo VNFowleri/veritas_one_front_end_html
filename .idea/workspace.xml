@@ -4,17 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="90f4068f-b5a8-48dc-9702-9f9d5da0e680" name="Changes" comment="Updated About Page">
+    <list default="true" id="90f4068f-b5a8-48dc-9702-9f9d5da0e680" name="Changes" comment="Updated About Page again">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/about.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/login.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/profile.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/signup.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/styles.css" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/react_front_end_app/src/pages/About.js" beforeDir="false" afterPath="$PROJECT_DIR$/react_front_end_app/src/pages/About.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/veritas-one/node_modules/.cache/default-development/0.pack" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/veritas-one/node_modules/.cache/default-development/index.pack" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -104,7 +96,7 @@
       <option name="presentableId" value="Default" />
       <updated>1743102948263</updated>
       <workItem from="1743102949329" duration="7352000" />
-      <workItem from="1743523954737" duration="316000" />
+      <workItem from="1743523954737" duration="2067000" />
     </task>
     <task id="LOCAL-00001" summary="html front end">
       <option name="closed" value="true" />
@@ -154,7 +146,23 @@
       <option name="project" value="LOCAL" />
       <updated>1743109892861</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Updated About Page">
+      <option name="closed" value="true" />
+      <created>1743524284071</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1743524284071</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Updated About Page again">
+      <option name="closed" value="true" />
+      <created>1743524518854</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1743524518854</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -186,6 +194,7 @@
     <MESSAGE value="try 2" />
     <MESSAGE value="Pushing so vercel can see json.pkg" />
     <MESSAGE value="Updated About Page" />
-    <option name="LAST_COMMIT_MESSAGE" value="Updated About Page" />
+    <MESSAGE value="Updated About Page again" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated About Page again" />
   </component>
 </project>
