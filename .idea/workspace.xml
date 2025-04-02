@@ -6,6 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="90f4068f-b5a8-48dc-9702-9f9d5da0e680" name="Changes" comment="Updated About Page again again">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react_front_end_app/src/components/Footer.js" beforeDir="false" afterPath="$PROJECT_DIR$/react_front_end_app/src/components/Footer.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -95,7 +96,7 @@
       <option name="presentableId" value="Default" />
       <updated>1743102948263</updated>
       <workItem from="1743102949329" duration="7352000" />
-      <workItem from="1743523954737" duration="6087000" />
+      <workItem from="1743523954737" duration="10382000" />
     </task>
     <task id="LOCAL-00001" summary="html front end">
       <option name="closed" value="true" />
@@ -177,7 +178,15 @@
       <option name="project" value="LOCAL" />
       <updated>1743527142165</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Updated About Page again again">
+      <option name="closed" value="true" />
+      <created>1743538241995</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1743538241995</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

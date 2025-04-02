@@ -9,10 +9,8 @@ const Footer = () => {
           You can embed icons via FontAwesome or any icon library
           e.g. <i className="fab fa-facebook-f"></i>
         */}
-        <a href="https://facebook.com" target="_blank" rel="noreferrer">Facebook</a>
-        <a href="https://linkedin.com" target="_blank" rel="noreferrer">LinkedIn</a>
-        <a href="https://youtube.com" target="_blank" rel="noreferrer">YouTube</a>
-        <a href="https://instagram.com" target="_blank" rel="noreferrer">Instagram</a>
+        <a href="https://x.com/VeritasOne_" target="_blank" rel="noreferrer">Twitter</a>
+        <a href="https://www.instagram.com/veritasonehealth/" target="_blank" rel="noreferrer">Instagram</a>
       </div>
     </footer>
   );
