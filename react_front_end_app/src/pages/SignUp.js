@@ -10,7 +10,7 @@ const SignUp = () => {
     console.log('Submitting form:', { email, name, dob });
 
     try {
-      const response = await fetch('https://veritasone-production.up.railway.app/signup', {  // Replace this
+      const response = await fetch('https://veritasone-production.up.railway.app/signup', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
@@ -18,12 +18,13 @@ const SignUp = () => {
         body: JSON.stringify({ email, name, dob }),
       });
 
+      if (!response.ok) {
+        const errorData = await response.json();
+        throw new Error(errorData.detail || 'Signup failed.');
+      }
+
       const data = await response.json();
       console.log('Server response:', data);
-
-      if (!response.ok) {
-        throw new Error(data.detail || 'Signup failed.');
-      }
 
       alert('Thanks for signing up!');
       setEmail('');
@@ -62,7 +63,6 @@ const SignUp = () => {
         />
         <input
           type="date"
-          placeholder="Date of Birth"
           value={dob}
           onChange={(e) => setDob(e.target.value)}
           required
