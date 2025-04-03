@@ -10,7 +10,7 @@ const SignUp = () => {
     console.log('Submitting form:', { email, name, dob });
 
     try {
-      const response = await fetch('https://api.veritasone.net/signup', {  // Replace this
+      const response = await fetch('https://veritasone-production.up.railway.app/signup', {  // Replace this
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',

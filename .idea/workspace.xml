@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="90f4068f-b5a8-48dc-9702-9f9d5da0e680" name="Changes" comment="Added link to my signup API to beta tester signup">
-      <change beforePath="$PROJECT_DIR$/react_front_end_app/src/pages/About.js" beforeDir="false" afterPath="$PROJECT_DIR$/react_front_end_app/src/pages/About.js" afterDir="false" />
+    <list default="true" id="90f4068f-b5a8-48dc-9702-9f9d5da0e680" name="Changes" comment="Removed advertising phrase from about page">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react_front_end_app/src/pages/SignUp.js" beforeDir="false" afterPath="$PROJECT_DIR$/react_front_end_app/src/pages/SignUp.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -95,7 +96,7 @@
       <option name="presentableId" value="Default" />
       <updated>1743102948263</updated>
       <workItem from="1743102949329" duration="7352000" />
-      <workItem from="1743523954737" duration="14261000" />
+      <workItem from="1743523954737" duration="17047000" />
     </task>
     <task id="LOCAL-00001" summary="html front end">
       <option name="closed" value="true" />
@@ -217,7 +218,23 @@
       <option name="project" value="LOCAL" />
       <updated>1743681803317</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="Removed advertising phrase from about page">
+      <option name="closed" value="true" />
+      <created>1743682133143</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1743682133143</updated>
+    </task>
+    <task id="LOCAL-00017" summary="Removed advertising phrase from about page">
+      <option name="closed" value="true" />
+      <created>1743682285598</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1743682285598</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -254,6 +271,7 @@
     <MESSAGE value="Only twitter and instagram on footer" />
     <MESSAGE value="Beta Tester front end working registration" />
     <MESSAGE value="Added link to my signup API to beta tester signup" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added link to my signup API to beta tester signup" />
+    <MESSAGE value="Removed advertising phrase from about page" />
+    <option name="LAST_COMMIT_MESSAGE" value="Removed advertising phrase from about page" />
   </component>
 </project>
