@@ -2,7 +2,7 @@ import React from 'react';
 import {
   BrowserRouter as Router,
   Routes,
-  Route
+  Route,
 } from 'react-router-dom';
 
 import SharedLayout from './components/SharedLayout';
@@ -14,12 +14,11 @@ import Login from './pages/Login';
 function App() {
   return (
     <Router>
-      {/* SharedLayout includes your navbar and footer, and the Route content goes in-between */}
       <Routes>
         <Route element={<SharedLayout />}>
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
-          <Route path="/signup" element={<SignUp />} />
+          <Route path="/signup" element={<SignUp />} /> {/* ✅ Use lowercase "signup" */}
           <Route path="/login" element={<Login />} />
         </Route>
       </Routes>
