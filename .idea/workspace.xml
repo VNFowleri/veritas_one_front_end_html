@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="90f4068f-b5a8-48dc-9702-9f9d5da0e680" name="Changes" comment="Only twitter and instagram on footer">
-      <change beforePath="$PROJECT_DIR$/react_front_end_app/src/pages/SignUp.js" beforeDir="false" afterPath="$PROJECT_DIR$/react_front_end_app/src/pages/SignUp.js" afterDir="false" />
+    <list default="true" id="90f4068f-b5a8-48dc-9702-9f9d5da0e680" name="Changes" comment="Added link to my signup API to beta tester signup">
+      <change beforePath="$PROJECT_DIR$/react_front_end_app/src/pages/About.js" beforeDir="false" afterPath="$PROJECT_DIR$/react_front_end_app/src/pages/About.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -95,7 +95,7 @@
       <option name="presentableId" value="Default" />
       <updated>1743102948263</updated>
       <workItem from="1743102949329" duration="7352000" />
-      <workItem from="1743523954737" duration="13626000" />
+      <workItem from="1743523954737" duration="14261000" />
     </task>
     <task id="LOCAL-00001" summary="html front end">
       <option name="closed" value="true" />
@@ -201,7 +201,23 @@
       <option name="project" value="LOCAL" />
       <updated>1743681077949</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Beta Tester front end working registration">
+      <option name="closed" value="true" />
+      <created>1743681502279</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1743681502279</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Added link to my signup API to beta tester signup">
+      <option name="closed" value="true" />
+      <created>1743681803317</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1743681803317</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -236,6 +252,8 @@
     <MESSAGE value="Updated About Page again" />
     <MESSAGE value="Updated About Page again again" />
     <MESSAGE value="Only twitter and instagram on footer" />
-    <option name="LAST_COMMIT_MESSAGE" value="Only twitter and instagram on footer" />
+    <MESSAGE value="Beta Tester front end working registration" />
+    <MESSAGE value="Added link to my signup API to beta tester signup" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added link to my signup API to beta tester signup" />
   </component>
 </project>
