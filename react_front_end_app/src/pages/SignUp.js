@@ -1,15 +1,29 @@
 import React, { useState } from 'react';
 
-const SignUp = () => {
-  const [email, setEmail] = useState('');
-  const [name, setName] = useState('');
-  const [dob, setDob] = useState('');
+const handleSubmit = async (e) => {
+  e.preventDefault();
+  try {
+    const response = await fetch('https://your-backend-api-url.com/signup', {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+      },
+      body: JSON.stringify({ email, name, dob }),
+    });
 
-  const handleSubmit = (e) => {
-    e.preventDefault();
-    // Handle signup logic here (e.g., call an API)
-    console.log('Sign Up:', { email, name, dob });
-  };
+    const data = await response.json();
+    if (!response.ok) {
+      throw new Error(data.detail || 'Signup failed.');
+    }
+
+    alert('Thanks for signing up! We’ll be in touch soon.');
+    setEmail('');
+    setName('');
+    setDob('');
+  } catch (error) {
+    alert(error.message);
+  }
+};
 
   return (
     <div className="signup-container">

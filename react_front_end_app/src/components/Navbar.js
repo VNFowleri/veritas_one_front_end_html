@@ -8,9 +8,8 @@ const Navbar = () => {
         <Link to="/">VeritasOne</Link>
       </div>
       <div className="navbar-links">
-        <Link to="/about">About Us</Link>
-        <Link to="/signup">Sign Up</Link>
-        <Link to="/login">Log In</Link>
+        <Link to="/About">About Us</Link>
+        <Link to="/Signup">Sign Up</Link>
       </div>
     </nav>
   );
