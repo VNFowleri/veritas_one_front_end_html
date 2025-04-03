@@ -16,7 +16,7 @@ const About = () => {
         It centralizes medical data across systems, breaking down healthcare silos so patients can easily access
         and share their records with any provider—anytime, anywhere in the world.
         The platform puts patients in control of how their information is used—whether for better care coordination,
-        contributing to groundbreaking research, or optionally for targeted advertising with financial compensation.
+        or contributing data to groundbreaking research with financial compensation.
         By combining patient empowerment, streamlined care, and ethical data monetization, Veritas One is redefining
         the future of global healthcare.
       </p>
