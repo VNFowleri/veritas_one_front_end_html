@@ -1,34 +1,39 @@
 import React, { useState } from 'react';
 
-const handleSubmit = async (e) => {
-  e.preventDefault();
-  console.log('Submitting form:', { email, name, dob });
+const SignUp = () => {
+  const [email, setEmail] = useState('');
+  const [name, setName] = useState('');
+  const [dob, setDob] = useState('');
 
-  try {
-    const response = await fetch('https://your-backend-url.com/signup', {  // <-- replace with real backend
-      method: 'POST',
-      headers: {
-        'Content-Type': 'application/json',
-      },
-      body: JSON.stringify({ email, name, dob }),
-    });
+  const handleSubmit = async (e) => {
+    e.preventDefault();
+    console.log('Submitting form:', { email, name, dob });
 
-    const data = await response.json();
-    console.log('Server response:', data);
+    try {
+      const response = await fetch('https://api.veritasone.net/signup', {  // Replace this
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify({ email, name, dob }),
+      });
 
-    if (!response.ok) {
-      throw new Error(data.detail || 'Signup failed.');
+      const data = await response.json();
+      console.log('Server response:', data);
+
+      if (!response.ok) {
+        throw new Error(data.detail || 'Signup failed.');
+      }
+
+      alert('Thanks for signing up!');
+      setEmail('');
+      setName('');
+      setDob('');
+    } catch (err) {
+      console.error('Signup error:', err);
+      alert('Error: ' + err.message);
     }
-
-    alert('Thanks for signing up!');
-    setEmail('');
-    setName('');
-    setDob('');
-  } catch (err) {
-    console.error('Signup error:', err);
-    alert('Error: ' + err.message);
-  }
-};
+  };
 
   return (
     <div className="signup-container">
@@ -39,6 +44,7 @@ const handleSubmit = async (e) => {
         Please fill out the form below if you are interested in becoming a beta tester.
         Users must be 18 years or older.
       </p>
+
       <form onSubmit={handleSubmit} className="signup-form">
         <input
           type="email"
