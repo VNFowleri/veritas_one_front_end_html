@@ -2,8 +2,10 @@ import React, { useState } from 'react';
 
 const handleSubmit = async (e) => {
   e.preventDefault();
+  console.log('Submitting form:', { email, name, dob });
+
   try {
-    const response = await fetch('https://your-backend-api-url.com/signup', {
+    const response = await fetch('https://your-backend-url.com/signup', {  // <-- replace with real backend
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
@@ -12,16 +14,19 @@ const handleSubmit = async (e) => {
     });
 
     const data = await response.json();
+    console.log('Server response:', data);
+
     if (!response.ok) {
       throw new Error(data.detail || 'Signup failed.');
     }
 
-    alert('Thanks for signing up! We’ll be in touch soon.');
+    alert('Thanks for signing up!');
     setEmail('');
     setName('');
     setDob('');
-  } catch (error) {
-    alert(error.message);
+  } catch (err) {
+    console.error('Signup error:', err);
+    alert('Error: ' + err.message);
   }
 };
 
